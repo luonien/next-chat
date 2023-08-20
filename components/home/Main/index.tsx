@@ -1,9 +1,9 @@
-import Menu from "./Menu";
+import Menu from './Menu'
 
-export default function Main (){
-    return <main className="flex-1 bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100 ">
-        <Menu/>
-
+export default function Main() {
+  return (
+    <main className='flex-1  text-gray-900  dark:text-gray-100 '>
+      <Menu />
     </main>
-    
-    }
+  )
+}

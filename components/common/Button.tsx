@@ -19,7 +19,7 @@ export default function Button(ButtonProps: ButtonProps) {
   const { className = '', children, icon: Icon, variant = 'default', ...props } = ButtonProps
   return (
     <button
-      className={`inline-flex  rounded items-center min-w-[38px] min-h-[38px] px-3 py-1.5  
+      className={`inline-flex rounded items-center min-w-[38px] min-h-[38px] px-3 py-1.5  
     ${buttonStyles[variant]}
     ${className}`}
       {...props}
