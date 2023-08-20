@@ -1,3 +1,4 @@
+import AppContextProvider from '@/components/AppContext'
 import './globals.css'
 export const metadata = {
   title: 'Next.js',
@@ -7,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
-      <body className='dark'>{children}</body>
+      <body className='dark'><AppContextProvider>{children}</AppContextProvider></body>
     </html>
   )
 }
